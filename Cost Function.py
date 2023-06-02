@@ -9,7 +9,7 @@ import numpy as np
 import math
 
 # sample training examples (features and targets)
-X_train = np.array([[0.5, 1.5], [2, 2], [0.76, 2], [0, 0.02], [4, 0.75], [1,1], [1.5, 0.5], [3, 0.5], [2, 2], [1, 2.5]]) # 6 training examples with 2 features
+X_train = np.array([[0.5, 1.5], [2, 2], [0.76, 2], [0, 0.02], [4, 0.75], [1,1], [1.5, 0.5], [3, 0.5], [2, 2], [1, 2.5]]) # 10 training examples with 2 features
 y_train = np.array([0, 0, 0, 1, 1, 1, 0, 0, 1, 1]) # binary classification
 
 # compute the cost of a logistic regression model using loss function
