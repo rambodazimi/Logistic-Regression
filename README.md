@@ -25,3 +25,16 @@ To demonstrate the functionality of the code, a sample training dataset is provi
 Finally, the code executes the "gradient_descent" method using the sample training dataset and displays the learned weights (w) and bias term (b). Additionally, it prints the equation of the decision boundary in the form of f(x) = w[0]x1 + w[1]x2 + b, where x1 and x2 represent the features.
 
 Overall, this Python code provides a concise implementation of gradient descent for logistic regression, allowing for efficient training and decision boundary calculation on datasets with multiple features and binary target values.
+
+### Logistic regression Using scikit-learn
+This Python code showcases the implementation of the Logistic Regression machine learning algorithm using the popular numpy and scikit-learn libraries. Logistic Regression is a powerful classification algorithm widely used for solving binary classification problems.
+
+The code begins by defining a training set consisting of six examples with two features. The features are stored in the numpy array X_train, while the corresponding target labels are stored in the numpy array y_train.
+
+A LogisticRegression object is created from scikit-learn's LogisticRegression class, and the model is trained using the fit() function by providing the training data (X_train) and target labels (y_train).
+
+Next, predictions are made on the training set using the trained model, and the predicted values are compared with the actual target labels. The code iterates over the training set and prints the predicted value and the corresponding actual value.
+
+Finally, the accuracy of the model is calculated using the score() function, which measures the accuracy of the model by comparing the predicted values with the actual labels. The accuracy is displayed as a percentage.
+
+This code serves as a concise example of using Logistic Regression for classification tasks and highlights the integration of numpy and scikit-learn libraries to streamline the implementation process.
